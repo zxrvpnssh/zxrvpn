@@ -7,6 +7,7 @@ apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv CF8E292A
 apt-get update
 apt-get install pritunl mongodb-org -y
 systemctl start mongod pritunl
+systemctl enable mongod pritunl
 #installing squid3
 apt-get install squid3 -y
 rm -f /etc/squid3/squid.conf
