@@ -16,3 +16,4 @@ wget -P /etc/squid3/ "https://raw.githubusercontent.com/a8401011452/shscript/mas
 sed -i "s/ipserver/$IP/g" /etc/squid3/squid.conf
 service squid3 restart
 cd /root
+pritunl setup-key
